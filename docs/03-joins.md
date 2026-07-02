@@ -19,7 +19,7 @@ JOIN table_B ON table_A.key = table_B.key
 
 ## 🗺️ Types of JOINs — Visual Reference
 
-![MySQL JOIN Types](Joins.png)
+![MySQL JOIN Types](../assets/joins.png)
 
 | JOIN Type | Returns | Use When |
 |-----------|---------|----------|

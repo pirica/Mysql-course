@@ -1,0 +1,94 @@
+<div align="center">
+
+# 🐬 MySQL — From Zero to Query Master
+
+### A hands-on, example-driven guide to writing real-world SQL in MySQL
+
+**🎥 Learn it step-by-step on YouTube → [Watch the Full MySQL Playlist](https://www.youtube.com/playlist?list=PLkFShEMrLia1jn4NLHAEI8gX3lIWW6kH9)**
+
+[![Watch on YouTube](https://img.shields.io/badge/▶%20Watch%20the%20Course-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLkFShEMrLia1jn4NLHAEI8gX3lIWW6kH9)
+[![MySQL](https://img.shields.io/badge/MySQL-8.0+-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://dev.mysql.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+
+</div>
+
+---
+
+> ### ⭐ Enjoying this guide?
+> **[Subscribe on YouTube](https://www.youtube.com/playlist?list=PLkFShEMrLia1jn4NLHAEI8gX3lIWW6kH9)** for the complete video walkthrough of every topic below, and **give this repo a ⭐** so more learners can find it. New lessons drop regularly — hit the bell so you never miss one.
+
+---
+
+## 📖 About This Repository
+
+This is a **structured, beginner-to-advanced MySQL reference** built to pair with the video course. Every guide is written as a standalone lesson with clear explanations, copy-paste-ready SQL, and worked examples against a single, consistent sample database — so concepts build naturally from one part to the next.
+
+Whether you're preparing for an interview, leveling up at work, or just starting out, work through the parts in order or jump straight to the topic you need.
+
+## 🚀 Getting Started
+
+1. **Set up the sample database** — start with [Part 0: Sample Database](docs/00-sample-database.md) and run the schema + seed data in your MySQL instance.
+2. **Follow along with the video** — each guide maps to a lesson in the [YouTube playlist](https://www.youtube.com/playlist?list=PLkFShEMrLia1jn4NLHAEI8gX3lIWW6kH9).
+3. **Practice** — every query in these docs runs against the sample database, so you can experiment as you learn.
+
+```bash
+# Clone the repo
+git clone https://github.com/vivekpandey76/Mysql-course.git
+cd Mysql-course
+
+# Load the sample database into MySQL, then start with docs/00-sample-database.md
+```
+
+## 📚 Course Contents
+
+| # | Topic | Guide |
+|---|-------|-------|
+| 0 | Sample Database (schema & seed data) | [Sample Database](docs/00-sample-database.md) |
+| 1 | Filtering Data (`WHERE`, operators, patterns) | [Filtering Data](docs/01-filtering-data.md) |
+| 2 | Aggregate Functions, `GROUP BY` & `HAVING` | [Aggregate Functions & GROUP BY](docs/02-aggregate-functions-and-group-by.md) |
+| 3 | JOINs (INNER, LEFT, RIGHT, SELF) | [Joins](docs/03-joins.md) |
+| 4 | Subqueries | [Subqueries](docs/04-subqueries.md) |
+| 5 | Window Functions | [Window Functions](docs/05-window-functions.md) |
+| 6 | Common Table Expressions (CTEs) | [Common Table Expressions](docs/06-common-table-expressions.md) |
+| 7 | String, Date & `CASE` Functions | [String, Date & CASE Functions](docs/07-string-date-and-case-functions.md) |
+
+## 🗂️ Repository Structure
+
+```
+mysql/
+├── docs/                 # Lesson guides (start with 00, follow in order)
+│   ├── 00-sample-database.md
+│   ├── 01-filtering-data.md
+│   ├── 02-aggregate-functions-and-group-by.md
+│   ├── 03-joins.md
+│   ├── 04-subqueries.md
+│   ├── 05-window-functions.md
+│   ├── 06-common-table-expressions.md
+│   └── 07-string-date-and-case-functions.md
+├── assets/               # Diagrams & images
+│   └── joins.png
+├── LICENSE
+└── README.md
+```
+
+## 🎯 Who This Is For
+
+- **Beginners** learning SQL for the first time
+- **Developers & analysts** brushing up on intermediate/advanced querying
+- **Interview candidates** revising joins, subqueries, window functions, and CTEs
+
+## 🤝 Contributing
+
+Found a typo, a bug in a query, or have a clearer example? Contributions are welcome — open an issue or submit a pull request.
+
+## 📜 License
+
+Released under the [MIT License](LICENSE). Free to use, share, and learn from — attribution appreciated.
+
+---
+
+<div align="center">
+
+**If this helped you, please ⭐ the repo and [subscribe on YouTube](https://www.youtube.com/playlist?list=PLkFShEMrLia1jn4NLHAEI8gX3lIWW6kH9). It genuinely helps! 🙌**
+
+</div>
