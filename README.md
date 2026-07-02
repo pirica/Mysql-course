@@ -51,6 +51,7 @@ cd Mysql-course
 | 5 | Window Functions | [Window Functions](docs/05-window-functions.md) |
 | 6 | Common Table Expressions (CTEs) | [Common Table Expressions](docs/06-common-table-expressions.md) |
 | 7 | String, Date & `CASE` Functions | [String, Date & CASE Functions](docs/07-string-date-and-case-functions.md) |
+| 8 | Views (virtual tables) | [Views](docs/08-views.md) |
 
 ## 🗂️ Repository Structure
 
@@ -64,7 +65,8 @@ mysql/
 │   ├── 04-subqueries.md
 │   ├── 05-window-functions.md
 │   ├── 06-common-table-expressions.md
-│   └── 07-string-date-and-case-functions.md
+│   ├── 07-string-date-and-case-functions.md
+│   └── 08-views.md
 ├── assets/               # Diagrams & images
 │   └── joins.png
 ├── LICENSE
