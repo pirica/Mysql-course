@@ -53,6 +53,7 @@ cd Mysql-course
 | 7 | String, Date & `CASE` Functions | [String, Date & CASE Functions](docs/07-string-date-and-case-functions.md) |
 | 8 | Views (virtual tables) | [Views](docs/08-views.md) |
 | 9 | Stored Procedures | [Stored Procedures](docs/09-stored-procedures.md) |
+| 10 | Triggers (automatic `INSERT`/`UPDATE`/`DELETE` actions) | [Triggers](docs/10-triggers.md) |
 
 ## 🗂️ Repository Structure
 
@@ -68,7 +69,8 @@ mysql/
 │   ├── 06-common-table-expressions.md
 │   ├── 07-string-date-and-case-functions.md
 │   ├── 08-views.md
-│   └── 09-stored-procedures.md
+│   ├── 09-stored-procedures.md
+│   └── 10-triggers.md
 ├── assets/               # Diagrams & images
 │   └── joins.png
 ├── LICENSE
