@@ -55,6 +55,14 @@ cd Mysql-course
 | 9 | Stored Procedures | [Stored Procedures](docs/09-stored-procedures.md) |
 | 10 | Triggers (automatic `INSERT`/`UPDATE`/`DELETE` actions) | [Triggers](docs/10-triggers.md) |
 
+## 🧩 Interview Practice
+
+Real-world SQL problems with datasets, expected output, and fully explained solutions — great for interview prep and self-testing.
+
+| Set | Focus | Link |
+|-----|-------|------|
+| 1 | Anti-joins, delivery times, running balances, distinct users, cancellation rates | [Problem Set 1](interview-questions/problem-set-01.md) |
+
 ## 🗂️ Repository Structure
 
 ```
@@ -71,6 +79,8 @@ mysql/
 │   ├── 08-views.md
 │   ├── 09-stored-procedures.md
 │   └── 10-triggers.md
+├── interview-questions/  # Practice problem sets with solutions
+│   └── problem-set-01.md
 ├── assets/               # Diagrams & images
 │   └── joins.png
 ├── LICENSE
