@@ -62,6 +62,7 @@ Real-world SQL problems with datasets, expected output, and fully explained solu
 | Set | Focus | Link |
 |-----|-------|------|
 | 1 | Anti-joins, delivery times, running balances, distinct users, cancellation rates | [Problem Set 1](interview-questions/problem-set-01.md) |
+| 2 | Self-joins & interval overlaps, top-N per group, `HAVING`, `LEAD()`, conditional aggregation | [Problem Set 2](interview-questions/problem-set-02.md) |
 
 ## 🗂️ Repository Structure
 
@@ -80,7 +81,8 @@ mysql/
 │   ├── 09-stored-procedures.md
 │   └── 10-triggers.md
 ├── interview-questions/  # Practice problem sets with solutions
-│   └── problem-set-01.md
+│   ├── problem-set-01.md
+│   └── problem-set-02.md
 ├── assets/               # Diagrams & images
 │   └── joins.png
 ├── LICENSE
