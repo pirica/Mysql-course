@@ -54,6 +54,7 @@ cd Mysql-course
 | 8 | Views (virtual tables) | [Views](docs/08-views.md) |
 | 9 | Stored Procedures | [Stored Procedures](docs/09-stored-procedures.md) |
 | 10 | Triggers (automatic `INSERT`/`UPDATE`/`DELETE` actions) | [Triggers](docs/10-triggers.md) |
+| 11 | `UNION` & `UNION ALL` (stacking result sets) | [UNION & UNION ALL](docs/11-union-and-union-all.md) |
 
 ## 🧩 Interview Practice
 
@@ -81,7 +82,8 @@ mysql/
 │   ├── 07-string-date-and-case-functions.md
 │   ├── 08-views.md
 │   ├── 09-stored-procedures.md
-│   └── 10-triggers.md
+│   ├── 10-triggers.md
+│   └── 11-union-and-union-all.md
 ├── interview-questions/  # Practice problem sets with solutions
 │   ├── problem-set-01.md
 │   ├── problem-set-02.md
