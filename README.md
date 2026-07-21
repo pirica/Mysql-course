@@ -56,6 +56,7 @@ cd Mysql-course
 | 10 | Triggers (automatic `INSERT`/`UPDATE`/`DELETE` actions) | [Triggers](docs/10-triggers.md) |
 | 11 | `UNION` & `UNION ALL` (stacking result sets) | [UNION & UNION ALL](docs/11-union-and-union-all.md) |
 | 12 | Recursive CTEs (hierarchies & sequence generation) | [Recursive CTE](docs/12-recursive-cte.md) |
+| 13 | Indexes (single, composite, unique, prefix & `EXPLAIN`) | [Indexes](docs/13-indexes.md) |
 
 ## 🧩 Interview Practice
 
@@ -85,13 +86,15 @@ mysql/
 │   ├── 09-stored-procedures.md
 │   ├── 10-triggers.md
 │   ├── 11-union-and-union-all.md
-│   └── 12-recursive-cte.md
+│   ├── 12-recursive-cte.md
+│   └── 13-indexes.md
 ├── interview-questions/  # Practice problem sets with solutions
 │   ├── problem-set-01.md
 │   ├── problem-set-02.md
 │   ├── problem-set-03.md
 │   └── problem-set-04.md
 ├── assets/               # Diagrams & images
+│   ├── Indexing.png
 │   └── joins.png
 ├── LICENSE
 └── README.md
