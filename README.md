@@ -6,6 +6,10 @@
 
 **🎥 Learn it step-by-step on YouTube → [Watch the Full MySQL Playlist](https://www.youtube.com/playlist?list=PLkFShEMrLia1jn4NLHAEI8gX3lIWW6kH9)**
 
+<a href="https://www.youtube.com/playlist?list=PLkFShEMrLia1jn4NLHAEI8gX3lIWW6kH9" title="Watch the full MySQL course on YouTube">
+  <img src="https://img.youtube.com/vi/h2Bf3IvN8gw/maxresdefault.jpg" alt="MySQL Complete Course — click to watch the full playlist on YouTube" width="640">
+</a>
+
 [![Watch on YouTube](https://img.shields.io/badge/▶%20Watch%20the%20Course-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLkFShEMrLia1jn4NLHAEI8gX3lIWW6kH9)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0+-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://dev.mysql.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
