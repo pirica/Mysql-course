@@ -73,6 +73,7 @@ Real-world SQL problems with datasets, expected output, and fully explained solu
 | 3 | Screening-round classics: Nth-highest salary, find & delete duplicates, manager/dept comparisons, month-over-month growth | [Problem Set 3](interview-questions/problem-set-03.md) |
 | 4 | Multi-table joins, median (overall & per-group), gaps-and-islands streaks (2 methods), self-`UNION` win-percentage | [Problem Set 4](interview-questions/problem-set-04.md) |
 | 5 | String parsing with `SUBSTRING_INDEX`, longest win streak, pivot & unpivot reshaping, first/last order per customer | [Problem Set 5](interview-questions/problem-set-05.md) |
+| 6 | Consecutive-day orders, "bought all products", missing IDs, `NOT EXISTS` + theory: `GROUP BY` rules, `DELETE`/`TRUNCATE`/`DROP`, `IFNULL` vs `COALESCE` | [Problem Set 6](interview-questions/problem-set-06.md) |
 
 ## 🗂️ Repository Structure
 
@@ -98,7 +99,8 @@ mysql/
 │   ├── problem-set-02.md
 │   ├── problem-set-03.md
 │   ├── problem-set-04.md
-│   └── problem-set-05.md
+│   ├── problem-set-05.md
+│   └── problem-set-06.md
 ├── assets/               # Diagrams & images
 │   ├── Indexing.png
 │   └── joins.png
