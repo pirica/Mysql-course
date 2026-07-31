@@ -75,6 +75,14 @@ Real-world SQL problems with datasets, expected output, and fully explained solu
 | 5 | String parsing with `SUBSTRING_INDEX`, longest win streak, pivot & unpivot reshaping, first/last order per customer | [Problem Set 5](interview-questions/problem-set-05.md) |
 | 6 | Consecutive-day orders, "bought all products", missing IDs, `NOT EXISTS` + theory: `GROUP BY` rules, `DELETE`/`TRUNCATE`/`DROP`, `IFNULL` vs `COALESCE` | [Problem Set 6](interview-questions/problem-set-06.md) |
 
+## 🏆 LeetCode SQL 50
+
+Full walkthroughs of the [LeetCode SQL 50](https://leetcode.com/studyplan/top-sql-50/) study plan — the fastest way to get interview-ready. Each problem includes the **original LeetCode link**, the schema and sample data, real verified output, a **"How to approach it"** breakdown, and the trade-offs behind the solution.
+
+| Set | Problems | Focus | Link |
+|-----|----------|-------|------|
+| 1 | 1–10 | `WHERE` logic, `NULL` traps, `INNER` vs `LEFT JOIN`, anti-joins, `LAG()`, self-joins | [Set 1 — Select & Basic Joins](leetcode-problems/set-01-easy-basics.md) |
+
 ## 🗂️ Repository Structure
 
 ```
@@ -101,6 +109,8 @@ mysql/
 │   ├── problem-set-04.md
 │   ├── problem-set-05.md
 │   └── problem-set-06.md
+├── leetcode-problems/    # LeetCode SQL 50 walkthroughs
+│   └── set-01-easy-basics.md
 ├── assets/               # Diagrams & images
 │   ├── Indexing.png
 │   └── joins.png
@@ -113,6 +123,7 @@ mysql/
 - **Beginners** learning SQL for the first time
 - **Developers & analysts** brushing up on intermediate/advanced querying
 - **Interview candidates** revising joins, subqueries, window functions, and CTEs
+- **LeetCode grinders** who want the *reasoning* behind each solution, not just an accepted answer
 
 ## 🤝 Contributing
 
