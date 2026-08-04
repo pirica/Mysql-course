@@ -35,6 +35,7 @@ All queries target **MySQL 8.0+** and were executed against LeetCode's own sampl
 ### 🗄️ Schema
 
 ```sql
+DROP TABLE IF EXISTS Products;
 CREATE TABLE Products (
     product_id INT PRIMARY KEY,
     low_fats   ENUM('Y','N'),
@@ -88,6 +89,7 @@ WHERE low_fats = 'Y' AND recyclable = 'Y';
 ### 🗄️ Schema
 
 ```sql
+DROP TABLE IF EXISTS Customer;
 CREATE TABLE Customer (
     id         INT PRIMARY KEY,
     name       VARCHAR(25),
@@ -147,6 +149,7 @@ WHERE referee_id != 2 OR referee_id IS NULL;
 ### 🗄️ Schema
 
 ```sql
+DROP TABLE IF EXISTS World;
 CREATE TABLE World (
     name       VARCHAR(255) PRIMARY KEY,
     continent  VARCHAR(255),
@@ -211,6 +214,7 @@ WHERE area >= 3000000 OR population >= 25000000;
 ### 🗄️ Schema
 
 ```sql
+DROP TABLE IF EXISTS Views;
 CREATE TABLE Views (
     article_id INT,
     author_id  INT,
@@ -268,6 +272,7 @@ ORDER BY author_id;
 ### 🗄️ Schema
 
 ```sql
+DROP TABLE IF EXISTS Tweets;
 CREATE TABLE Tweets (
     tweet_id INT PRIMARY KEY,
     content  VARCHAR(50)
@@ -334,6 +339,7 @@ WHERE CHAR_LENGTH(content) > 15;
 ### 🗄️ Schema
 
 ```sql
+DROP TABLE IF EXISTS Employees;
 CREATE TABLE Employees (
     id   INT PRIMARY KEY,
     name VARCHAR(20)
@@ -342,6 +348,7 @@ CREATE TABLE Employees (
 INSERT INTO Employees VALUES
 (1,'Alice'),(7,'Bob'),(11,'Meir'),(90,'Winston'),(3,'Jonathan');
 
+DROP TABLE IF EXISTS EmployeeUNI;
 CREATE TABLE EmployeeUNI (
     id        INT,
     unique_id INT,
@@ -406,6 +413,7 @@ LEFT JOIN EmployeeUNI e1
 ### 🗄️ Schema
 
 ```sql
+DROP TABLE IF EXISTS Sales;
 CREATE TABLE Sales (
     sale_id    INT,
     product_id INT,
@@ -418,6 +426,7 @@ CREATE TABLE Sales (
 INSERT INTO Sales VALUES
 (1,100,2008,10,5000),(2,100,2009,12,5000),(7,200,2011,15,9000);
 
+DROP TABLE IF EXISTS Product;
 CREATE TABLE Product (
     product_id   INT PRIMARY KEY,
     product_name VARCHAR(30)
@@ -473,6 +482,7 @@ JOIN Product p
 ### 🗄️ Schema
 
 ```sql
+DROP TABLE IF EXISTS Visits;
 CREATE TABLE Visits (
     visit_id    INT PRIMARY KEY,
     customer_id INT
@@ -480,6 +490,7 @@ CREATE TABLE Visits (
 
 INSERT INTO Visits VALUES (1,23),(2,9),(4,30),(5,54),(6,96),(7,54),(8,54);
 
+DROP TABLE IF EXISTS Transactions;
 CREATE TABLE Transactions (
     transaction_id INT PRIMARY KEY,
     visit_id       INT,
@@ -555,6 +566,7 @@ GROUP BY v.customer_id;
 ### 🗄️ Schema
 
 ```sql
+DROP TABLE IF EXISTS Weather;
 CREATE TABLE Weather (
     id          INT PRIMARY KEY,
     recordDate  DATE,
@@ -624,6 +636,7 @@ WHERE DATEDIFF(recordDate, previous_recordDate) = 1
 ### 🗄️ Schema
 
 ```sql
+DROP TABLE IF EXISTS Activity;
 CREATE TABLE Activity (
     machine_id    INT,
     process_id    INT,
