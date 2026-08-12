@@ -728,8 +728,8 @@ GROUP BY a.machine_id;
 
 <div align="center">
 
-**Set 2 coming soon.** ⭐ the repo to follow along.
+**[Continue to Set 2 — Joins & Aggregation ➡](set-02-joins-and-aggregation.md)**
 
-[⬅ Back to Course Home](../README.md) · [Interview Problem Sets](../interview-questions/) · [LeetCode SQL 50 study plan ↗](https://leetcode.com/studyplan/top-sql-50/)
+[⬅ Back to Course Home](../README.md) · [Set 3 — Window Functions & First-Row Logic](set-03-window-functions-and-first-rows.md) · [Interview Problem Sets](../interview-questions/) · [LeetCode SQL 50 study plan ↗](https://leetcode.com/studyplan/top-sql-50/)
 
 </div>

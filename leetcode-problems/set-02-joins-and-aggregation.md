@@ -784,7 +784,7 @@ GROUP BY country, DATE_FORMAT(trans_date, '%Y-%m');
 
 <div align="center">
 
-**Set 3 coming soon.** ⭐ the repo to follow along.
+**[Continue to Set 3 — Window Functions & First-Row Logic ➡](set-03-window-functions-and-first-rows.md)**
 
 [⬅ Back to Course Home](../README.md) · [Set 1 — Select & Basic Joins](set-01-easy-basics.md) · [Interview Problem Sets](../interview-questions/) · [LeetCode SQL 50 study plan ↗](https://leetcode.com/studyplan/top-sql-50/)
 
