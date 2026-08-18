@@ -786,6 +786,6 @@ GROUP BY country, DATE_FORMAT(trans_date, '%Y-%m');
 
 **[Continue to Set 3 — Window Functions & First-Row Logic ➡](set-03-window-functions-and-first-rows.md)**
 
-[⬅ Back to Course Home](../README.md) · [Set 1 — Select & Basic Joins](set-01-easy-basics.md) · [Interview Problem Sets](../interview-questions/) · [LeetCode SQL 50 study plan ↗](https://leetcode.com/studyplan/top-sql-50/)
+[⬅ Back to Course Home](../README.md) · [Set 1 — Select & Basic Joins](set-01-easy-basics.md) · [Set 4 — Advanced Windows & Conditional Logic](set-04-advanced-windows-and-conditional-logic.md) · [Interview Problem Sets](../interview-questions/) · [LeetCode SQL 50 study plan ↗](https://leetcode.com/studyplan/top-sql-50/)
 
 </div>

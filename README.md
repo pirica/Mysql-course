@@ -84,6 +84,7 @@ Full walkthroughs of the [LeetCode SQL 50](https://leetcode.com/studyplan/top-sq
 | 1 | 1–10 | `WHERE` logic, `NULL` traps, `INNER` vs `LEFT JOIN`, anti-joins, `LAG()`, self-joins | [Set 1 — Select & Basic Joins](leetcode-problems/set-01-easy-basics.md) |
 | 2 | 11–20 | `CROSS JOIN` scaffolding, `COUNT(*)` vs `COUNT(col)`, `HAVING`, conditional aggregation, rates & percentages, range joins | [Set 2 — Joins & Aggregation](leetcode-problems/set-02-joins-and-aggregation.md) |
 | 3 | 21–30 | First-row-per-group with `ROW_NUMBER()`, `DENSE_RANK()` on ties, `LEAD()` retention, `COUNT(DISTINCT)`, relational division, inclusive date windows | [Set 3 — Window Functions & First-Row Logic](leetcode-problems/set-03-window-functions-and-first-rows.md) |
+| 4 | 31–40 | Window frames (`ROWS` vs `RANGE`), running totals, 7-day moving averages, `LEAD(col, n)`, `UNION ALL` for zero-count buckets, anti-joins, `CASE` branching | [Set 4 — Advanced Windows & Conditional Logic](leetcode-problems/set-04-advanced-windows-and-conditional-logic.md) |
 
 ## 🗂️ Repository Structure
 
@@ -114,7 +115,8 @@ mysql/
 ├── leetcode-problems/    # LeetCode SQL 50 walkthroughs
 │   ├── set-01-easy-basics.md
 │   ├── set-02-joins-and-aggregation.md
-│   └── set-03-window-functions-and-first-rows.md
+│   ├── set-03-window-functions-and-first-rows.md
+│   └── set-04-advanced-windows-and-conditional-logic.md
 ├── assets/               # Diagrams & images
 │   ├── Indexing.png
 │   └── joins.png
