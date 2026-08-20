@@ -831,8 +831,8 @@ WHERE ranking >= 7;
 
 <div align="center">
 
-**Set 5 coming soon.** ⭐ the repo to follow along.
+**[Continue to Set 5 — Strings, Regex & Set Operations ➡](set-05-strings-regex-and-set-operations.md)**
 
-[⬅ Back to Course Home](../README.md) · [Set 1 — Select & Basic Joins](set-01-easy-basics.md) · [Set 2 — Joins & Aggregation](set-02-joins-and-aggregation.md) · [Set 3 — Window Functions & First-Row Logic](set-03-window-functions-and-first-rows.md) · [LeetCode SQL 50 study plan ↗](https://leetcode.com/studyplan/top-sql-50/)
+[⬅ Back to Course Home](../README.md) · [Set 1](set-01-easy-basics.md) · [Set 2](set-02-joins-and-aggregation.md) · [Set 3](set-03-window-functions-and-first-rows.md) · [Set 5](set-05-strings-regex-and-set-operations.md) · [Interview Problem Sets](../interview-questions/) · [LeetCode SQL 50 study plan ↗](https://leetcode.com/studyplan/top-sql-50/)
 
 </div>

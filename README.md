@@ -77,7 +77,7 @@ Real-world SQL problems with datasets, expected output, and fully explained solu
 
 ## 🏆 LeetCode SQL 50
 
-Full walkthroughs of the [LeetCode SQL 50](https://leetcode.com/studyplan/top-sql-50/) study plan — the fastest way to get interview-ready. Each problem includes the **original LeetCode link**, the schema and sample data, real verified output, a **"How to approach it"** breakdown, and the trade-offs behind the solution.
+Full walkthroughs of the **complete** [LeetCode SQL 50](https://leetcode.com/studyplan/top-sql-50/) study plan — all 50 problems, the fastest way to get interview-ready. Each problem includes the **original LeetCode link**, the schema and sample data, real verified output, a **"How to approach it"** breakdown, and the trade-offs behind the solution.
 
 | Set | Problems | Focus | Link |
 |-----|----------|-------|------|
@@ -85,6 +85,7 @@ Full walkthroughs of the [LeetCode SQL 50](https://leetcode.com/studyplan/top-sq
 | 2 | 11–20 | `CROSS JOIN` scaffolding, `COUNT(*)` vs `COUNT(col)`, `HAVING`, conditional aggregation, rates & percentages, range joins | [Set 2 — Joins & Aggregation](leetcode-problems/set-02-joins-and-aggregation.md) |
 | 3 | 21–30 | First-row-per-group with `ROW_NUMBER()`, `DENSE_RANK()` on ties, `LEAD()` retention, `COUNT(DISTINCT)`, relational division, inclusive date windows | [Set 3 — Window Functions & First-Row Logic](leetcode-problems/set-03-window-functions-and-first-rows.md) |
 | 4 | 31–40 | Window frames (`ROWS` vs `RANGE`), running totals, 7-day moving averages, `LEAD(col, n)`, `UNION ALL` for zero-count buckets, anti-joins, `CASE` branching | [Set 4 — Advanced Windows & Conditional Logic](leetcode-problems/set-04-advanced-windows-and-conditional-logic.md) |
+| 5 | 41–50 | String functions, word-boundary `LIKE`, `REGEXP` & case-sensitivity, `GROUP_CONCAT`, `DELETE` from a self-referenced table, top-N per group with `DENSE_RANK()` | [Set 5 — Strings, Regex & Set Operations](leetcode-problems/set-05-strings-regex-and-set-operations.md) |
 
 ## 🗂️ Repository Structure
 
@@ -116,7 +117,8 @@ mysql/
 │   ├── set-01-easy-basics.md
 │   ├── set-02-joins-and-aggregation.md
 │   ├── set-03-window-functions-and-first-rows.md
-│   └── set-04-advanced-windows-and-conditional-logic.md
+│   ├── set-04-advanced-windows-and-conditional-logic.md
+│   └── set-05-strings-regex-and-set-operations.md
 ├── assets/               # Diagrams & images
 │   ├── Indexing.png
 │   └── joins.png
