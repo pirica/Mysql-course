@@ -87,6 +87,14 @@ Full walkthroughs of the **complete** [LeetCode SQL 50](https://leetcode.com/stu
 | 4 | 31–40 | Window frames (`ROWS` vs `RANGE`), running totals, 7-day moving averages, `LEAD(col, n)`, `UNION ALL` for zero-count buckets, anti-joins, `CASE` branching | [Set 4 — Advanced Windows & Conditional Logic](leetcode-problems/set-04-advanced-windows-and-conditional-logic.md) |
 | 5 | 41–50 | String functions, word-boundary `LIKE`, `REGEXP` & case-sensitivity, `GROUP_CONCAT`, `DELETE` from a self-referenced table, top-N per group with `DENSE_RANK()` | [Set 5 — Strings, Regex & Set Operations](leetcode-problems/set-05-strings-regex-and-set-operations.md) |
 
+## 🎁 Bonus Problems
+
+Patterns the SQL 50 skips or only skims — the ones that actually come up in analytics and data-engineering interviews. Custom datasets, same format: schema, real verified output, approach, solution, and the failure modes to avoid.
+
+| Set | Focus | Link |
+|-----|-------|------|
+| 1 | Rolling sums: aggregate-then-window, `PARTITION BY` frames, `ROWS` vs `RANGE`, recursive date spines for gappy time series | [Bonus Set 1 — The Rolling Sum Pattern](bonus-problems/set-01-rolling-sum-pattern.md) |
+
 ## 🗂️ Repository Structure
 
 ```
@@ -119,6 +127,8 @@ mysql/
 │   ├── set-03-window-functions-and-first-rows.md
 │   ├── set-04-advanced-windows-and-conditional-logic.md
 │   └── set-05-strings-regex-and-set-operations.md
+├── bonus-problems/       # Patterns the SQL 50 doesn't cover
+│   └── set-01-rolling-sum-pattern.md
 ├── assets/               # Diagrams & images
 │   ├── Indexing.png
 │   └── joins.png
